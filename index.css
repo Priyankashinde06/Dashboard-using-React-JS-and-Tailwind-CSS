@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+*{
+    @apply transition-colors duration-200;
+    font-family: "Quicksand", sans-serif;
+}
